@@ -1,38 +1,33 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;700&display=swap");
+
+.container {
+  margin-bottom: 40px;
+  display: block;
+}
+/* * Pages styling */
+
+.article-container {
+  position: absolute;
+}
+
+
+h1 {
+  font-family: Maven-Bold, "serif";
+  font-style: bold;
   text-align: center;
+  color: #3b3b3b;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  font-family: Maven-Bold, "serif";
+  padding-bottom: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media only screen and (max-width: 768px) {
+  #column {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
