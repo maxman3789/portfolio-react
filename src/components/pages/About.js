@@ -1,17 +1,23 @@
-import React from 'react';
+import React from "react";
 
 export default function About() {
   return (
     <div>
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+      <h1>About Me</h1>
+      
+      <p>Max S. was born in San Diego, CA some time in the 20th century. Max has a fascination with technology and always willing to venture into new areas.
+                  He has a degree in Information Systems from the University of Nevada, Reno. Some of the fields he has worked in include 
+                  Hospitality, Debt Collecting, Ambulance Services, Web Development, Marketing, Surveillance, E-Commerce, Manufacturing, Data Analysis,
+                  and Ship Building. Another venture of Max is App Development under the name "samscheller.com", which started as a partnership with his brother.</p>
+    
+                  <p>Outside of being a Tech Professional and a hard worker, he likes Photography with Retrograde devices.
+                      Max developed an online persona called <a href="http://thatguywithagameboycamera.com" target="_window">"That Guy With A Game Boy Camera"</a> where
+                      he takes and posts photos with a Nintendo Game Boy Camera. This led to an interview with the LATimes on an article about <a href="https://www.latimes.com/entertainment/herocomplex/la-et-hc-nintendo-game-boy-anniversary-20190421-story.html" target="_window">Game Boys at 30 years old</a>.
+                      Max has spoken at conventions on Retro Gaming relevance, and even spoke at Comic-Con: Special Edition in 2021.</p>
+                
+                      <p>Max has made a Documentary about his apprecation for the video game Fallout: New Vegas titled, <a href="https://www.youtube.com/watch?v=ABuu8ryZpV8" target="_window">Las-New: A Fallout Snow Globe Road Trip</a>.
+                    It was a kind of movie only he could make.
+                  </p>
     </div>
   );
 }

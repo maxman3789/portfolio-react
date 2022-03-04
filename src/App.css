@@ -1,0 +1,269 @@
+:root {
+  --backColor: #061125;
+  --offGrey: #949987;
+  --contrastHover: #c07116;
+  --borderColor: #030508;
+}
+html,
+body {
+  height: 100%;
+}
+#root {
+  height: 100%;
+}
+.mainBody {
+  min-height: 93%;
+}
+* {
+  font-family: Montserrat, sans-serif;
+  cursor: default;
+}
+
+body {
+  height: 100%;
+  background-color: var(--backColor);
+  color: var(--offGrey);
+}
+
+#particles-js {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+a:hover {
+  color: var(--contrastHover);
+}
+
+.intro {
+  position: fixed;
+  left: 10%;
+  top: 24%;
+  width: 25%;
+  font-size: 140%;
+  color: #ffffff;
+}
+
+.myLinks {
+  position: fixed;
+  font-size: 200%;
+  color: var(--offGrey);
+  left: 60%;
+  top: 60%;
+  display: flex;
+  flex-direction: column;
+  line-height: 2;
+}
+
+h2 {
+  top: 10%;
+  position: fixed;
+  left: 10%;
+  font-size: 200%;
+  z-index: 10;
+}
+
+p {
+  line-height: 2;
+}
+#myRealPort {
+  color: #fce29b;
+}
+#myRealPort:hover {
+  color: white;
+}
+.projectCards {
+  flex: 1 1;
+  position: relative;
+  padding: 0 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: stretch;
+}
+
+img {
+  border: 2px solid var(--borderColor);
+  border-radius: 10px;
+}
+
+.image {
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: auto;
+  right: auto;
+  height: 100%;
+  width: 100%;
+  opacity: 0.2;
+  transition: 0.5s;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.hoverText {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 45%;
+  font-size: 20px;
+  text-align: center;
+  display: none;
+  color: #030508;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 350px;
+  min-height: 250px;
+  margin: 10px;
+}
+
+.card:hover figcaption {
+  color: var(--contrastHover);
+}
+
+.card:hover .overlay {
+  opacity: 0;
+}
+.resumeLink {
+  color: #1d9663;
+}
+.resumeLink:hover {
+  color: #c07116;
+}
+.text {
+  position: absolute;
+  top: 30%;
+  padding: 0 5% 0 30%;
+  font-size: 120%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  line-height: 2;
+}
+
+a.back {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 30px;
+}
+.workTitles {
+  position: relative;
+  margin: 18% 0 0 55%;
+  color: #e0e0e0;
+}
+.workTitles h3:hover {
+  cursor: pointer;
+}
+.secret {
+  font-size: 15px;
+  color: rgb(126, 124, 124);
+  position: absolute;
+  top: 2%;
+  right: 2%;
+}
+#changeBackground:hover {
+  color: var(--contrastHover);
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style-type: none;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3f5b75;
+  color: white;
+}
+header p {
+  text-align: center;
+  width: 20%;
+  font-size: 25px;
+  margin: 0;
+}
+.header {
+  height: 80px;
+  padding: 0;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+}
+
+.route {
+  padding: 20px;
+}
+
+footer {
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+.footerContainer {
+  margin: auto 35%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 25px;
+}
+#contactForm {
+  width: 550px;
+  background-color: #e0e0e0;
+  color: #030508;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+#contactForm * {
+  margin: 3px 0;
+}
+#contactForm input,
+#contactForm textarea {
+  padding: 5px;
+}
+
+#contactForm button {
+  background-color: #1d9663;
+  color: #e0e0e0;
+  border: none;
+  border: 1px solid #1d9663;
+  border-radius: 4px;
+  width: 300px;
+  margin: 8px auto 0;
+}
+#contactForm button:hover {
+  background-color: #fff;
+  color: #136140;
+  font-weight: bolder;
+  border: 1px solid black;
+}
+#messageInput {
+  height: 180px;
+  resize: none;
+}
