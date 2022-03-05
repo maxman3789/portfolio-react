@@ -3,6 +3,9 @@ View Deployed website here: https://lit-caverns-06239.herokuapp.com/
 
 This Website is meant to act as my Portfolio that displays my projects, tells information about myself, provides Contact information, and a link to my Resume.
 
+<img width="1292" alt="Screen Shot 2022-03-04 at 8 16 26 PM" src="https://user-images.githubusercontent.com/96030343/156867302-afb556b9-1064-45e4-8026-b55a80d86916.png">
+
+
 Based on the following Criteria:
 
 ## User Story
