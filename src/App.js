@@ -4,7 +4,7 @@ import './App.css';
 import Footer from "./components/Footer";
 import MainBody from "./components/MainBody";
 
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 // import PortfolioContainer from "./other-components/PortfolioContainer";
 
 

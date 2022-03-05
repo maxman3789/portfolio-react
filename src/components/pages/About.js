@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div>
       <h1>About Me</h1>
-      
+      <img src="https://maxman3789.github.io/Portfolio-February/assets/images/IMG_5315.jpeg" class="about" />
       <p>Max S. was born in San Diego, CA some time in the 20th century. Max has a fascination with technology and always willing to venture into new areas.
                   He has a degree in Information Systems from the University of Nevada, Reno. Some of the fields he has worked in include 
                   Hospitality, Debt Collecting, Ambulance Services, Web Development, Marketing, Surveillance, E-Commerce, Manufacturing, Data Analysis,

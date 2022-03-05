@@ -1,5 +1,5 @@
 import React from "react";
-import { BsGithub, BsLinkedin, BsStackOverflow } from "react-icons/bs";
+import { BsGithub, BsLinkedin, BsStackOverflow, BsMailbox2 } from "react-icons/bs";
 
 function Footer() {
   const socials = [
@@ -11,14 +11,19 @@ function Footer() {
       href: "https://www.linkedin.com/in/maxwell-scheller-73a349138/",
       img: <BsLinkedin />,
     },
+    // {
+    //   href: "",
+    //   img: <BsStackOverflow />,
+    // },
     {
-      href: "",
-      img: <BsStackOverflow />,
-    },
+        href: "mailto:maxman3789@aol.com",
+        img: <BsMailbox2 />,
+      },
   ];
   return (
     <footer>
       <div className="footerContainer">
+          
         {socials.map((element, i) => {
           return (
             <a href={element.href} target="_blank" rel="noreferrer" key={i}>
@@ -27,6 +32,9 @@ function Footer() {
           );
         })}
       </div>
+      <div><br></br>
+              Copyright 2022, Maxwell Scheller
+          </div>
     </footer>
   );
 }
