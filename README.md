@@ -1,4 +1,6 @@
 # Portfolio - Made With React.js
+Update: View Website here: https://maxman3789.github.io/portfolio-react/
+
 View Deployed website here: https://lit-caverns-06239.herokuapp.com/
 
 This Website is meant to act as my Portfolio that displays my projects, tells information about myself, provides Contact information, and a link to my Resume.
